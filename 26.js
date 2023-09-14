@@ -6,3 +6,5 @@ console.log(fruits[0])
 
 let mixed=[1,2,3,"string"];
 console.log(mixed);
+fruits[1]="banana";
+console.log(fruits);
