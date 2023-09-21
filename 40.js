@@ -22,6 +22,8 @@ const obj2={
     key3:"value3",
     key4:"value4",
 }
-const newObject={...obj1,...obj2};
-console.log(newObject);
+// const newObject={...obj1,...obj2};
+// console.log(newObject);
 
+const newObject={..."abcdefghi"};
+console.log(newObject);
