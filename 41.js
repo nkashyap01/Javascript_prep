@@ -4,6 +4,7 @@ const band={
     bandName:"led Zepplin",
     famousSong:"stairway to heaven",
     year:1968,
+    anotherFamousSong:"kashmir"
 };
 //it is norwal way
 // const bandName=band.bandName;
@@ -18,5 +19,7 @@ const band={
 // now change varaible name
 
 
-let {bandName:var1, famousSong:var2}=band;
+let {bandName:var1, famousSong:var2, ...restProps}=band;
 console.log(var1);
+
+console.log(restProps);
