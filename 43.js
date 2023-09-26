@@ -11,6 +11,7 @@ const users=[
 //  console.log(firstName);
 //  console.log(gender);
 
-const [{firstName:user1firstName}, , {gender:user3gender}]=users;
+const [{firstName:user1firstName,userId}, , {gender:user3gender}]=users;
  console.log(user1firstName);
  console.log(user3gender);
+ console.log(userId);
