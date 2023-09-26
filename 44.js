@@ -17,3 +17,11 @@ function diff(){
 
 console.log(diff());
 
+
+function mul(number1,number2){
+    return number1*number2;
+}
+
+const returnValue=mul(4,5);
+console.log(returnValue);
+
