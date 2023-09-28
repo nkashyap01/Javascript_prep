@@ -1,1 +1,1 @@
-console.log(firstName);
+console.log(`${number}*2=${number*2}`);
