@@ -12,4 +12,4 @@ const user2={
     firstName:"muskan",
     age:20,
 }
-user1.about.call(user2);
+ user1.about.call(user2);
