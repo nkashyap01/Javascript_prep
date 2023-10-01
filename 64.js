@@ -5,5 +5,5 @@ function createUser(firstName,age){
     this.age=age;
 }
 
-const user1=new createUser("Nhea",22);
+const user1=new createUser("Neha",22);
 console.log(user1);
