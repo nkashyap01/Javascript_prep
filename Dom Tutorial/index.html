@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
     <header class="header">
@@ -17,7 +19,7 @@
             </ul>
         </nav>
         <div class="headline">
-            <h2> Manage your task</h2>
+            <h2 id="main-heading"> Manage your task</h2>
             <button class="btn btn-headline">Learn More</button>
         </div>
     </header>
@@ -30,28 +32,35 @@
     </section>
     <section class="section-signup container">
         <h2> Sign up</h2>
-        <form>
+        <form class="signup-form">
         <div class="form-group">
             <label for="username"> username</label> 
         <input type="text" name="username" id="username">  
         </div>
         <div class="form-group">
-            <label for="password"> password</label> 
+            <label for="password"> Password</label> 
         <input type="password" name="password" id="username">  
         </div>
         <div class="form-group">
             <label for="confirmPassword"> confirmPassword</label> 
-        <input type="text" name="confirmPassword" id="confirmPassword">  
+        <input type="password" name="confirmPassword" id="confirmPassword">  
         </div>
         <div class="form-group">
-            <label for="username"> username</label> 
-        <input type="text" name="username" id="username">  
+            <label for="phone"> Phone</label> 
+        <input type="text" name="phone" id="phone">  
         </div>
         <div class="form-group">
-            <label for="username"> username</label> 
-        <input type="text" name="username" id="username">  
+            <label for="Email"> Email</label> 
+        <input type="email" name="email" id="email">  
         </div>
+        <div class="form-group">
+            <label for="about"> About Yourself</label> 
+        <input type="textarea" name="about"   id="about" cols="30" rows="10">  </input>
+        </div>
+        <button type="submit" class="btn signup-btn">Submit</button>
         </form>
     </section>
+    <!-- <script src="01.js"></script> -->
+    <script src="01.js"></script>
 </body>
 </html>
