@@ -8,10 +8,10 @@ const body=document.body;
 
 const mainButton=document.querySelector(".btn-headline");
 mainButton.addEventListener("mouseover",()=>{
-    console.log("mouseover even occured");
+    console.log("mouseover event occured");
 });
 
  
 mainButton.addEventListener("mouseleave",()=>{
-    console.log("mouseleave even occured");
+    console.log("mouseleave event occured");
 });
