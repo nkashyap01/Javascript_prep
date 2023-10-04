@@ -1,9 +1,11 @@
 //get multiple elments using getElements by TagName
 
-const navItems=document.getElementsByTagName("a");
+let navItems=document.getElementsByTagName("a");
 console.log(navItems);
-for(let i=0;i<navItems.length;i++){
-    const navItem=navItems[i];
+ navItems=Array.from(navItems);
+ console.log(Array.isArray(navItems));
+ navItems.forEach((navItem)=>{
+    
     navItem.style.backgroundColor="#fff";
     navItem.style.color="green";
-}
+})

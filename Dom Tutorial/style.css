@@ -99,6 +99,19 @@ body{
     font-weight: bold;
     
 }
+.todo-list{
+    text-align:left;
+    font-size:1.2rem;
+    list-style-type:none;
+}
+.todo-list li{
+    padding:0.7rem;
+    background:gray;
+    color:cyan;
+    margin-top:1rem;
+    text-transform:capitalize;
+
+}
 .section-signup{
     margin:5rem ;
     text-align:center;
