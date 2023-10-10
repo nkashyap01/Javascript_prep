@@ -7,13 +7,22 @@
         <li id="project">Project</li>
       </ul> 
       <script>
-        document.getElementById('home').addEventListener('click', function(e){
-            console.log("click inside the ul");
-        },false)
+//         document.getElementById('home').addEventListener('click', function(e){
+//             console.log("click inside the ul");
+//         },false)
 
-        document.getElementById('about').addEventListener('click',function(e)
-{
-    console.log("owl clicked");
-} ,false )    </script>
+//         document.getElementById('about').addEventListener('click',function(e)
+// {
+//     console.log("about clicked");
+//     e.stopPropagation()
+// } ,false ) 
+
+document.querySelector('#menu').addEventListener('click',function(e){
+    console.log(e.target.parentNode);
+    let removeIt=e.target.parentNode
+    removeIt.remove()
+}
+)
+  </script>
   </body>
 </html>
