@@ -1,15 +1,19 @@
 <html>
   <body>
     <ul id="menu">
-        <li>Home</li>
-        <li>About</li>
-        <li>Blog</li>
-        <li>Project</li>
+        <li id="home">Home</li>
+        <li id="about">About</li>
+        <li id="blog">Blog</li>
+        <li id="project">Project</li>
       </ul> 
       <script>
-        document.getElementById('menu').addEventListener('click',function(e){
-            console.log(e);
-        })
-      </script>
+        document.getElementById('home').addEventListener('click', function(e){
+            console.log("click inside the ul");
+        },false)
+
+        document.getElementById('about').addEventListener('click',function(e)
+{
+    console.log("owl clicked");
+} ,false )    </script>
   </body>
 </html>
