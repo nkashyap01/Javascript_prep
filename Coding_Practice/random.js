@@ -1,9 +1,7 @@
-function random(min, max) {
-  return Math.floor(Math.random() * (max - min + 1)) + min;
+function random(num) {
+  return Math.floor(Math.random() * 100);
 }
 
-var minValue = 1;
-var maxValue = 100;
-var number = random(minValue, maxValue);
+var number = random(100);
 
 console.log("Random Number: " + number);
