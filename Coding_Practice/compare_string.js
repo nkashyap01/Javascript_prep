@@ -8,3 +8,9 @@ if (string1.toUpperCase === string2.toUpperCase) {
 } else {
   console.log("The string is not same");
 }
+
+if (string1 === string2) {
+  console.log("The string is same");
+} else {
+  console.log("The string is not same");
+}
