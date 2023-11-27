@@ -5,3 +5,4 @@ const result = arr.filter((val, index, array) => {
 });
 console.log(arr);
 console.log(result);
+console.log(result);
