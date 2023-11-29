@@ -13,3 +13,4 @@ const myfunc = func();
 myfunc();
 myfunc();
 myfunc();
+myfunc();
