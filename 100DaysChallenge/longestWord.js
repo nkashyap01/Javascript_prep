@@ -13,7 +13,7 @@
 
 // findLongestWord("session placement Lpu College University");
 
-// Without using sort method
+// Without sort Method
 
 const findLongestWord = (str) => {
   if (str.trim().length === 0) {
