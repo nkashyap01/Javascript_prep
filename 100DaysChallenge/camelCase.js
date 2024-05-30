@@ -17,3 +17,5 @@ const toCamelCase = (str) => {
  
 
 console.log(toCamelCase("hello world javascript"));
+
+console.log(toCamelCase("Next Js"));
